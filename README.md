@@ -1,4 +1,9 @@
 # SparseTensorComputations
 
 This repository contains code from my master thesis "Rethinking Sparse Tensor Storage: Incremental Formats as a Path Towards Maximizing Tensor-Vector Multiplication Efficiency" 
-Shortened Abstract: This master thesis presents novel methods for compressing sparse tensors with the goal of improving the efficiency of tensor operations. The proposed methods build upon existing sparse tensor storage techniques and are evaluated for efficiency and storage cost. Based on the evaluation, a promising storage format is identified and implemented. Experimental results demonstrate the potential for further improvement and optimization of sparse tensor storage methods proposed in this thesis, indicating promising opportunities for their application in various tensor operations.
+It contains the sparse tensor storage format Bit-IF, which is a compression of the coordinate storage format:
+
+Bit-IF: Incremental Sparse Fibres with Bit Encoding
+
+Each mode of the tensor has an increment array, which is the difference between the current and next index. Additionally to the increment, there is a single additional array $b$ of size $d \times nnz_{\mathcal{A}}$ that stores zeros and ones.
+
