@@ -1,4 +1,4 @@
-# SparseTensorComputations
+# Sparse Tensor Computations
 
 This repository contains code from my master thesis "Rethinking Sparse Tensor Storage: Incremental Formats as a Path Towards Maximizing Tensor-Vector Multiplication Efficiency" 
 It contains the sparse tensor storage format Bit-IF, which is a compression of the **Coo**rdinate (COO) storage format:
