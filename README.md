@@ -1,1 +1,4 @@
 # SparseTensorComputations
+
+This repository contains code from my master thesis "Rethinking Sparse Tensor Storage: Incremental Formats as a Path Towards Maximizing Tensor-Vector Multiplication Efficiency" 
+Shortened Abstract: This master thesis presents novel methods for compressing sparse tensors with the goal of improving the efficiency of tensor operations. The proposed methods build upon existing sparse tensor storage techniques and are evaluated for efficiency and storage cost. Based on the evaluation, a promising storage format is identified and implemented. Experimental results demonstrate the potential for further improvement and optimization of sparse tensor storage methods proposed in this thesis, indicating promising opportunities for their application in various tensor operations.
