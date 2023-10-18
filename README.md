@@ -9,4 +9,4 @@ Additionally to the increment, there is a single additional array $b$ of size $d
 
 ![alt text](https://github.com/xniuuu/SparseTensorComputations/blob/main/bitif.png)
 
-*Edit 18.10.2023: There are currently three main files, as I was benchmarking different hyperparameters settings simultaneously. A rework where only one main file is needed will follow soon.
+**Edit 18.10.2023**: There are currently three main files, as I was benchmarking different hyperparameters settings simultaneously. A rework where only one main file is needed will follow soon.
